@@ -1,0 +1,10 @@
+<h1>Current Employee:</h1>
+<div>
+  Name: <%= @employee.first_name %> <%= @employee.last_name %><br>
+  Alias: <%= @employee.alias %> <br>
+  Title: <%= @employee.title %> <br>
+  Office: <%= @employee.office %> <br>
+  Dog Name: <%= @employee.dog.name %> <br><br>
+  <%= image_tag(@employee.img_url, :width => "600") %> <br>
+
+</div>
